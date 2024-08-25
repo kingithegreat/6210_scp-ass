@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px; /* Sets the maximum width of the root element */
+  margin: 0 auto; /* Centers the root element horizontally */
+  padding: 2rem; /* Adds padding around the root element */
+  /* Sets a linear gradient background */
+  background: linear-gradient(rgb(27, 7, 11), rgb(1, 23, 27), rgb(26, 1, 53), rgb(9, 6, 16), rgb(30, 17, 17));
+  color: white; /* Sets the text color to white */
+}
+
+
+@keyframes flash {
+  0%, 100% { color: red; } /* Start and end with red color */
+  50% { color: white; } /* Change to white color at the midpoint */
+}
+
+#title {
+  font-size: 60px; /* Sets the font size of the title */
+  font-weight: bold; /* Makes the title text bold */
+  color: #f0e9e9; /* Sets the initial color of the title text */
+  text-align: center; /* Centers the title text */
+  margin: 20px 0; /* Adds vertical margin around the title */
+  display: inline-block; /* Ensures the element is inline-block */
+  white-space: nowrap; /* Prevents the text from wrapping */
+  animation: move 10s linear infinite alternate, flash 10s linear infinite alternate; /* Applies the move and flash animations */
+}
+
+.images {
+  text-align: center; /* Centers the content of elements with the class 'images' */
+}
+
+p {
+  font-family: monospace; /* Sets the font family of paragraph text to monospace */
+}

@@ -1,0 +1,21 @@
+.navbar {
+  margin-bottom: 20px; /* Adds a bottom margin to the navbar */
+  background-color: (255, 0, 0); /* Sets the background color of the navbar (note: this should be corrected to a valid color value) */
+}
+
+.navbar-brand {
+  font-weight: bold; /* Makes the navbar brand text bold */
+  color: #f3eeee; /* Sets the color of the navbar brand text */
+}
+
+.nav-link {
+  color: #f8f3f3; /* Sets the color of the navigation links */
+}
+
+.nav-link:hover {
+  color: black; /* Changes the color of the navigation links on hover */
+}
+.nav-link.active {
+  font-size: larger;
+  font-weight: bold; /* Optional: make the text bold */
+}

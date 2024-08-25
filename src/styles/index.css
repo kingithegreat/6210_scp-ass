@@ -1,0 +1,68 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; /* Sets the default font family */
+  line-height: 1.5; /* Sets the default line height */
+  font-weight: 400; /* Sets the default font weight */
+
+  color-scheme: light dark; /* Supports both light and dark color schemes */
+  color: rgba(255, 255, 255, 0.87); /* Sets the default text color with some transparency */
+  background-color: #242424; /* Sets the default background color */
+
+  font-synthesis: none; /* Disables font synthesis */
+  text-rendering: optimizeLegibility; /* Optimizes text rendering for legibility */
+  -webkit-font-smoothing: antialiased; /* Smooths fonts on WebKit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Smooths fonts on macOS */
+}
+
+a {
+  font-weight: 500; /* Sets the font weight for links */
+  color: #646cff; /* Sets the link color */
+  text-decoration: inherit; /* Inherits text decoration from parent */
+}
+a:hover {
+  color: #535bf2; /* Changes link color on hover */
+}
+
+body {
+  margin: 0; /* Removes default margin */
+  display: flex; /* Uses flexbox layout */
+  place-items: center; /* Centers items in the flex container */
+  min-width: 320px; /* Sets the minimum width */
+  min-height: 100vh; /* Sets the minimum height to fill the viewport */
+}
+
+h1 {
+  font-size: 3.2em; /* Sets the font size for h1 elements */
+  line-height: 1.1; /* Sets the line height for h1 elements */
+}
+
+button {
+  border-radius: 8px; /* Rounds the corners of buttons */
+  border: 1px solid transparent; /* Sets a transparent border */
+  padding: 0.6em 1.2em; /* Adds padding inside buttons */
+  font-size: 1em; /* Sets the font size for buttons */
+  font-weight: 500; /* Sets the font weight for buttons */
+  font-family: inherit; /* Inherits the font family */
+  background-color: #1a1a1a; /* Sets the background color for buttons */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  transition: border-color 0.25s; /* Adds a transition effect for border color */
+}
+button:hover {
+  border-color: #646cff; /* Changes the border color on hover */
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color; /* Adds an outline for focused buttons */
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547; /* Sets the text color for light mode */
+    background-color: #ffffff; /* Sets the background color for light mode */
+  }
+  a:hover {
+    color: #747bff; /* Changes link color on hover in light mode */
+  }
+  button {
+    background-color: #f9f9f9; /* Sets the button background color for light mode */
+  }
+}

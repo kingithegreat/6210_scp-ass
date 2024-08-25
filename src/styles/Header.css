@@ -1,0 +1,6 @@
+#title {
+  color: red; /* Sets the text color to red */
+  font-family: 'Creepster', cursive; /* Applies the 'Creepster' font with a fallback to cursive */
+  font-size: 3rem; /* Sets the font size to 3 rem units */
+  text-shadow: 2px 2px 4px black; /* Adds a black shadow to the text with specified offsets and blur radius */
+}
