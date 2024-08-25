@@ -13,7 +13,7 @@ function Nav() {
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark rounded">
             <div className="container-fluid">
                 {/* Logo image */}
-                <img id="images" src="/src/assets/th.jpg" alt="Scp-image" style={{ height: '40px' }} />
+                <img id="images" src="src/assets/th.jpg" alt="Scp-image" style={{ height: '40px' }} />
                 
                 {/* Brand link with custom styling */}
                 <NavLink className="navbar-brand text-danger fw-bold fst-italic ms-3" to="/">
