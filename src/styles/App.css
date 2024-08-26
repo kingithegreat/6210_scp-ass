@@ -14,7 +14,7 @@
 }
 
 #title {
-  font-size: 60px; /* Sets the font size of the title */
+  font-size: 2rem; /* Sets the font size of the title */
   font-weight: bold; /* Makes the title text bold */
   color: #f0e9e9; /* Sets the initial color of the title text */
   text-align: center; /* Centers the title text */
@@ -26,6 +26,7 @@
 
 .images {
   text-align: center; /* Centers the content of elements with the class 'images' */
+  width: 60%;
 }
 
 p {

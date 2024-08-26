@@ -1,6 +1,8 @@
 .navbar {
   margin-bottom: 20px; /* Adds a bottom margin to the navbar */
   background-color: (255, 0, 0); /* Sets the background color of the navbar (note: this should be corrected to a valid color value) */
+  width: inherit;
+
 }
 
 .navbar-brand {
