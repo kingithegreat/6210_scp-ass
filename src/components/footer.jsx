@@ -8,7 +8,7 @@ function Footer() {
         <div className="row">
           {/* Column for the footer image */}
           <div className="col-md-2">
-            <img src="/src/assets/footerImage2.jpg" alt="Footer Image" style={{ height: '80px' }} className="mb-2" />
+            <img src="./src/assets/footerImage2.jpg" alt="Footer Image" style={{ height: '80px' }} className="mb-2" />
           </div>
           {/* Column for the footer text and social icons */}
           <div className="col-md-8">
