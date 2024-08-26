@@ -27,7 +27,7 @@ function MainContent(props) {
       </p> 
       {/* Display the SCP image */}
       <div className="text-center mb-4">
-        <img className="images rounded" src={"/images/" + scp.Image} alt="SCP image" />
+        <img className="images rounded" src={"../images/" + scp.Image} alt="SCP image" />
       </div>
     </div>
   );
