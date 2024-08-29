@@ -17,10 +17,13 @@ function MainContentWrapper() {
 }
 
 function App() {
+
+
   return (
     <>
       {/* Header component */}
       <Header />
+      
       <Router>
         <div>
           {/* Navigation component */}
